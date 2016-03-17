@@ -74,4 +74,18 @@ public class StringExpansionTest extends TestCase{
         assertEquals("Expected out put is aaaabbbccd","aaaabbbccd",result);
     }
 
+    public void testExpandStringForNums5(){
+        StringExpansion se = new StringExpansion();
+        String result = se.expandStringForNums("a4b3c2d0");
+
+        assertEquals("Expected out put is aaaabbbcc","aaaabbbcc",result);
+    }
+
+    public void testExpandStringForNums6(){
+        StringExpansion se = new StringExpansion();
+        String result = se.expandStringForNums("a4b000c2d0");
+
+        assertEquals("Expected out put is aaaacc","aaaacc",result);
+    }
+
 }
