@@ -6,15 +6,16 @@ package com.sample;
 
 import java.lang.System;
 
-public class StringExpansion {
+public class PlayWIthStrings {
 
     public static void main(String[] args) {
-        new StringExpansion();
+        new PlayWIthStrings();
     }
 
-    public StringExpansion(){
+    public PlayWIthStrings(){
         //sop(charCountInString("3"));
         //sop(expandStringForNums("a4b13c0d4"));
+       // sop(countNumberOfOccurences(20,0));
     }
 
     public String charCountInString(String input) {
@@ -95,6 +96,16 @@ public class StringExpansion {
         }
 
         return returnVal.toString();
+    }
+
+    public int countNumberOfOccurences(int a, int b) {
+        int count = 0;
+
+        for (int i=0; i<a; i++) {
+            if (Integer.toString(i).indexOf(Integer.toString(b)) != -1) count++;
+        }
+
+        return count;
     }
 
     public void sop(Object o) {
