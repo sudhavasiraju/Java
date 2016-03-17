@@ -88,4 +88,31 @@ public class StringExpansionTest extends TestCase{
         assertEquals("Expected out put is aaaacc","aaaacc",result);
     }
 
+    public void testCountNumberOfOccurences() {
+        StringExpansion se = new StringExpansion();
+        int result = se.countNumberOfOccurences(10, 1);
+
+        assertEquals("Expected out put is 1",1,result);
+    }
+
+    public void testCountNumberOfOccurences1() {
+        StringExpansion se = new StringExpansion();
+        int result = se.countNumberOfOccurences(21,0);
+
+        assertEquals("Expected out put is 3",3,result);
+    }
+
+    public void testCountNumberOfOccurences2() {
+        StringExpansion se = new StringExpansion();
+        int result = se.countNumberOfOccurences(30,2);
+
+        assertEquals("Expected out put is 12",12,result);
+    }
+
+    public void testCountNumberOfOccurences3() {
+        StringExpansion se = new StringExpansion();
+        int result = se.countNumberOfOccurences(100,9);
+
+        assertEquals("Expected out put is 19",19,result);
+    }
 }
