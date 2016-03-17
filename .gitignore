@@ -1,3 +1,5 @@
 # Folders to ignore
 .idea
 production
+out
+*.iml
