@@ -1,6 +1,6 @@
-package com.sample.test;
+package com.sample.strings.test;
 
-import com.sample.StringReverse;
+import com.sample.strings.StringReverse;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
