@@ -1,4 +1,4 @@
-package com.sample;
+package com.sample.strings;
 
 /**
  * Created by sudhakar.vasiraju on 3/17/16.

@@ -1,6 +1,6 @@
-package com.sample.test;
+package com.sample.strings.test;
 
-import com.sample.PlayWIthStrings;
+import com.sample.strings.PlayWIthStrings;
 import junit.framework.TestCase;
 
 /**
