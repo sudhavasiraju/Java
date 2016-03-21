@@ -1,12 +1,10 @@
-package com.sample;
+package com.sample.prefixtree.test;
 
+import com.sample.prefixtree.PrefixTree;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runners.Parameterized;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 import static org.junit.Assert.*;

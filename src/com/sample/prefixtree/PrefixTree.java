@@ -1,4 +1,4 @@
-package com.sample;
+package com.sample.prefixtree;
 
 import java.util.ArrayList;
 import java.util.List;
