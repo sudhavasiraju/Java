@@ -1,0 +1,15 @@
+abc
+abd
+bdf
+abcbdfghi
+ghi
+mno
+opq
+mnoopq
+abcabdgh
+egh
+thi
+sdd
+abcbdfghimopqeghmno
+mnoopqghieghthisddabd
+mop
