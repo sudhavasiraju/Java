@@ -50,6 +50,6 @@ public class PrefixTreeTest {
 
     @Test
     public void testFindWord4() throws Exception {
-        assertFalse("mnop should not be there in the list", prefixTree.findWord("mnop"));
+        assertFalse("mnop should not be there in the list", prefixTree.findWord("mnoa"));
     }
 }
