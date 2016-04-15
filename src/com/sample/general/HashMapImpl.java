@@ -19,17 +19,17 @@ public class HashMapImpl<K, V> {
             items[hash] = new LinkedList<Entry<K, V>>();
         }
 
-        LinkedList<Entry<K, V>> collission = items[hash];
+        LinkedList<Entry<K, V>> collision = items[hash];
 
-        for (Entry<K, V> entry:collission) {
+        for (Entry<K, V> entry:collision) {
             if (entry.isEquals(key)) {
-                collission.remove(entry);
+                collision.remove(entry);
                 break;
             }
         }
 
         Entry<K, V> newItem = new Entry<>(key, value);
-        collission.add(newItem);
+        collision.add(newItem);
 
     }
 
